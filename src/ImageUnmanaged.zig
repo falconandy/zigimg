@@ -31,17 +31,17 @@ pub const ConvertError = Error ||
     error{ NoConversionAvailable, NoConversionNeeded, QuantizeError };
 
 pub const Format = enum {
-    bmp,
-    gif,
-    jpg,
-    pbm,
-    pcx,
-    pgm,
+//     bmp,
+//     gif,
+//     jpg,
+//     pbm,
+//     pcx,
+//     pgm,
     png,
-    ppm,
-    qoi,
-    tga,
-    pam,
+//     ppm,
+//     qoi,
+//     tga,
+//     pam,
 };
 
 pub const Stream = std.io.StreamSource;
