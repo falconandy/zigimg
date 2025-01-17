@@ -35,6 +35,7 @@ pub const PlteProcessor = reader.PlteProcessor;
 pub const ReaderOptions = reader.ReaderOptions;
 pub const DefaultProcessors = reader.DefaultProcessors;
 pub const DefaultOptions = reader.DefaultOptions;
+pub const NoopAllocator = reader.NoopAllocator;
 
 pub const PNG = struct {
     const Self = @This();
